@@ -7,6 +7,12 @@ import TippyPackage from './components/TippyPackage';
 import CountUpPackage from './components/CountUpPackage';
 import IdleTimerPackage from './components/IdleTimerPackage';
 import ColorPickerPackage from './components/ColorPickerPackage';
+import CreditCardsPackage from './components/CreditCardsPackage';
+import DatePickerPackage from './components/DatePickerPackage';
+import ReactPlayerPackage from './components/ReactPlayerPackage';
+import ReactSpinnersPackage from './components/ReactSpinnersPackage';
+import LineChart from './components/LineChart';
+import BarChart from './components/BarChart';
 
 function App() {
   return (
@@ -23,7 +29,13 @@ function App() {
       {/* <TippyPackage /> */}
       {/* <CountUpPackage /> */}
       {/* <IdleTimerPackage /> */}
-      <ColorPickerPackage />
+      {/* <ColorPickerPackage /> */}
+      {/* <CreditCardsPackage /> */}
+      {/* <DatePickerPackage /> */}
+      {/* <ReactPlayerPackage /> */}
+      {/* <ReactSpinnersPackage /> */}
+      {/* <LineChart /> */}
+      <BarChart />
     </div>
   );
 }

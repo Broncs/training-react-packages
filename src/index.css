@@ -15,3 +15,26 @@ code {
 .overlay2 {
   background-color: green;
 }
+
+.form-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.form-style input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.wrapper-chart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.chart {
+  width: 80%;
+}
