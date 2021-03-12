@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Toastify from './components/Toastify';
+import { Slide, Zoom, Flip, Bounce } from 'react-toastify';
+import ModalPackage from './components/ModalPackage';
+import TippyPackage from './components/TippyPackage';
+import CountUpPackage from './components/CountUpPackage';
+import IdleTimerPackage from './components/IdleTimerPackage';
+import ColorPickerPackage from './components/ColorPickerPackage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ToastContainer
+        position={'bottom-right'}
+        // autoClose={5000}
+        // limit={3}
+        // transition={Bounce}
+        // rtl right to left
+      />
+      <Toastify /> */}
+      {/* <ModalPackage /> */}
+      {/* <TippyPackage /> */}
+      {/* <CountUpPackage /> */}
+      {/* <IdleTimerPackage /> */}
+      <ColorPickerPackage />
     </div>
   );
 }
