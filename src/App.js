@@ -35,7 +35,7 @@ function App() {
       {/* <ReactPlayerPackage /> */}
       {/* <ReactSpinnersPackage /> */}
       {/* <LineChart /> */}
-      <BarChart />
+      {/* <BarChart /> */}
     </div>
   );
 }
